@@ -178,9 +178,10 @@ li {
 .header-area {
   width: 100%;
   z-index: 99;
-  background: url(../img/header-bg.png);
+  /* background: url(../img/header-bg.png); */
   position: relative;
   overflow: hidden;
+  background: #2A2A2A;
 }
 
 
@@ -280,14 +281,16 @@ li {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #2A2A2A;
+  /* background: #2A2A2A; */
   z-index: -1;
   top: 0;
   left: 0;
+  background: url(../img/header-bg.png);
+  background-size: cover;
 }
 
 .header_top {
-  padding: 10px 0 18px;
+  padding: 8px 0 18px;
 }
 
 .header_top_content {
@@ -341,7 +344,7 @@ li.separet {
 
 .hero-Area {
   position: relative;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .hero-Area:before {
@@ -352,9 +355,10 @@ li.separet {
   left: 0;
   top: 0;
   /* background: red; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero-bg.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero-bg.png);
   mix-blend-mode: luminosity;
   z-index: -1;
+  background-size: cover;
 }
 
 .container {
@@ -372,7 +376,7 @@ li.separet {
 .hero_content {
   text-transform: uppercase;
   color: #ffff;
-  padding-top: 180px;
+  padding-top: 200px;
   padding-left: 80px;
 }
 
@@ -760,7 +764,7 @@ section.Feature-area .sec_title h2 {
 
 .offer-Area {
   background: url(../img/cash-bg.png);
-  padding: 60px 0 120px;
+  padding: 60px 0 80px;
 }
 
 .offer-Area .sec_title h2 {
@@ -933,7 +937,7 @@ img.line-bg {
 
 .cashToday-Area {
   color: #fff;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .cashToday-Area .sec_title {
@@ -1262,6 +1266,7 @@ img.line-bg {
   background: #242424;
   color: #ffff;
   font-family: 'Raleway';
+  overflow: hidden;
 }
 
 .footer-Area .container {
